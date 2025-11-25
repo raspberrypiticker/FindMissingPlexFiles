@@ -14,7 +14,7 @@ Instead of clicking through every season and episode in Plex, this tool generate
 - 📂 **Per-drive scanning** – Point it at a missing drive (e.g. `F:\`) and it finds what used to live there
 - 📚 **Plex-aware** – Reads directly from the Plex SQLite database
 - 📋 **Series-level summary** – For TV/Anime it shows:
-  - `Family Guy – Seasons 1, 2, 3, 4, 5 missing`
+  - `(TVSHOWNAME) Seasons 1, 2, 3, 4, 5 missing`
   - Instead of a huge list of every individual episode
 - 🎬 **Movies tab** – Lists movie titles that are missing from that drive
 - 📄 **CSV export** – Easy-to-filter report for rebuilding your library
@@ -59,21 +59,16 @@ You can change these paths in the script if your setup is different.
 ## 🚀 Getting Started
 
 1. **Download the files** from this repository:
-   - `PlexMissingMedia_GUI_Tabs.ps1` *(or the compiled `.exe` if provided)*
+   - `PlexMissingMedia_GUI.exe
    - `sqlite3.exe` (if not already installed)
 2. Place them in a folder, for example:
    ```text
    C:\tools\
-       PlexMissingMedia_GUI_Tabs.ps1
+       PlexMissingMedia_GUI.exe
        sqlite3.exe
    ```
-3. (Optional, once) Allow local scripts to run:
-   ```powershell
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
-4. Run the GUI:
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File "C:\tools\PlexMissingMedia_GUI_Tabs.ps1"
+3. Run the GUI:
+   PlexMissingMedia_GUI.exe
    ```
 
 ---
