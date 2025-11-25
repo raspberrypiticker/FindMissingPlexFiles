@@ -1,5 +1,5 @@
 # Plex Missing Media Scanner
-Have you ever lost a drive due to drive failure, accidently deleted the partion, or just deleted files accidently and now PLEX cant find your files this tool will tell you what you need to know. Ive uploaded the powershell script files that the exe is coded on if you ant to modifie it for your own means go ahead took hours of work to code this basic tool the exe file just makes life easy for noobs who dont want to code it just runs!!!
+Have you ever lost a drive due to drive failure, accidently deleted the partion, or just deleted files accidently Or changed a drive letter Like ME LOL, and now PLEX cant find your files this tool will tell you what you need to know. Ive uploaded the powershell script files that the exe is coded on if you want to modify it for your own means go ahead took hours of work to code this basic tool the exe file just makes life easy for noobs who dont want to code it just runs!!!
 
 ![Plex Missing Media Scanner](banner.png)
 
