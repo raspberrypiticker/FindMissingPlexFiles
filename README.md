@@ -1,8 +1,9 @@
 # Plex Missing Media Scanner
+Have you ever lost a drive due to drive failure, accidently deleted the partion, or just deleted files accidently and now PLEX cant find your files this tool will tell you what you need to know.
 
 ![Plex Missing Media Scanner](banner.png)
 
-A Windows PowerShell GUI tool that scans your Plex database and tells you **which TV shows, movies, and anime are missing** from a given drive (e.g. after a disk failure, format, or path change).
+A Windows PowerShell GUI tool that i wrote to an excutable for ease of use, it scans your Plex database and tells you **which TV shows, movies, and anime are missing** from a given drive (e.g. after a disk failure, format, or path change).
 
 Instead of clicking through every season and episode in Plex, this tool generates a **clean summary** and **CSV report** you can use as a reacquisition checklist.
 
